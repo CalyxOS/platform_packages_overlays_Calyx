@@ -16,6 +16,23 @@
       "message": "For some reason, with this, the overlay is disabled (didn\u0027t see anything in logs to explain why), so this does not work until it is enabled e.g. via `adb shell cmd overlay enable com.android.settings.fold.autorotate`.\n\nHere\u0027s some debug output:\n```\n$ adb shell dumpsys overlay com.android.settings.overlay.fold.autorotate\ncom.android.settings.overlay.fold.autorotate:0 {\n  mPackageName...........: com.android.settings.overlay.fold.autorotate\n  mOverlayName...........: null\n  mUserId................: 0\n  mTargetPackageName.....: com.android.settings\n  mTargetOverlayableName.: null\n  mBaseCodePath..........: /product/overlay/SettingsFoldAutoRotateOverlay.apk\n  mState.................: STATE_DISABLED\n  mIsEnabled.............: false\n  mIsMutable.............: true\n  mPriority..............: 2147483647\n  mCategory..............: null\n  mIsFabricated..........: false\n}\nIDMAP OF com.android.settings.overlay.fold.autorotate\nPaths:\n    target path  : /system_ext/priv-app/Settings/Settings.apk\n    overlay path : /product/overlay/SettingsFoldAutoRotateOverlay.apk\nDebug info:\n    W failed to find resource \u0027string/setting_auto_rotate_folded\u0027\n    W failed to find resource \u0027string/setting_auto_rotate_unfolded\u0027\nMapping:\n    0x7f030071 -\u003e 0x7f010000 (array/config_settableAutoRotationDeviceStatesDescriptions -\u003e array/config_settableAutoRotationDeviceStatesDescriptions)\n```",
       "revId": "dd9b296b7c06eefa1b49eeee91d983c60eb95a76",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fc1639fa_d3fa15f4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-07-17T20:01:12Z",
+      "side": 1,
+      "message": "Not needed now, with https://review.calyxos.org/c/CalyxOS/device_google_felix/+/18570/3",
+      "revId": "dd9b296b7c06eefa1b49eeee91d983c60eb95a76",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }

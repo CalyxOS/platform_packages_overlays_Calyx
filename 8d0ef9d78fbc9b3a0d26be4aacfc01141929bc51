@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a4dc65d4_63183dee",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2025-04-01T16:39:10Z",
+      "side": 1,
+      "message": "We already stopped building NavigationBarNoHint for QPR2 so this is safe to go anytime",
+      "revId": "8d0ef9d78fbc9b3a0d26be4aacfc01141929bc51",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
